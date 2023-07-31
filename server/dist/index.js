@@ -31,7 +31,7 @@ app.get("/", (req, res) => {
           {
             name: "GRILLED CHICKEN",
             price: 45,
-            text: "Tender, flavorful grilled chicken with savory seasonings. Satisfying and delicious.",
+            text: "Flavorful grilled chicken with savory seasonings. Satisfying and delicious.",
             image: "/images/chicken.png",
             type: "dinner",
           },

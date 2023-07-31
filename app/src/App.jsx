@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {useEffect,useState } from "react";
 import SearchResult from "./components/SearchResult";
 
-const BASE_URL="http://localhost:9000/";
+export const BASE_URL="http://localhost:9000";
 
 const App=()=> {
   const [data, setData]= useState(null);
@@ -30,6 +30,7 @@ const App=()=> {
   if (loading)return <div>loading...</div>
 
   return (
+  <>
     <Container>
       <TopContainer>
         <img src="/logo2.png"/>
@@ -43,8 +44,10 @@ const App=()=> {
         <Button>Lunch</Button>
         <Button>Dinner</Button>
       </FilterContainer>
-      <SearchResult data={data}/>
     </Container>
+      <SearchResult data={data}/>
+</>
+
   );
 }
 
@@ -96,11 +99,14 @@ justify-content: center;
 padding-bottom: 16px;
 `;
 
-const Button= styled.button`
+export const Button= styled.button`
 background:#FFBD59;
 border:none;
 border-radius:5px;
 color:#393646;
 padding: 6px 12px;
+&:hover{
+  background-color:#D9D9D9;
+}
 `;
 
