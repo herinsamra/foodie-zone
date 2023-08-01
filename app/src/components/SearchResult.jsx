@@ -90,7 +90,6 @@ const FoodCard=styled.div`
     }
     button{
         font-size: 12px;
-        cursor:pointer;
     }
 }
 

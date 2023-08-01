@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
     console.log(path_1.default.join(__dirname, "../public"));
     const foodData = [
         {
-            name: "Boiled Egg",
+            name: "BOILED EGG",
             price: 10,
             text: "Perfectly boiled eggs served with seasoning. Simple and satisfying.",
             image: "/images/egg.png",
