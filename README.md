@@ -1,6 +1,6 @@
 # foodie-zone
 
-link: https://foodie-zone-samra.netlify.app/
+
 
 ## Introduction
 Welcome to the Foodie Zone,a fully responsive React project that allows users to browse and explore various delicious foods. The app fetches food data from a server using an API in JSON format. The retrieved data is then used to create dynamic Food Card components, each displaying an image of the food, its name, description, and price. Throughout the development of this project, I gained valuable insights into React's useState and styled components, as well as the process of converting JSON data into a fully functional website. Additionally, I dived into graphic design by creating a visually appealing logo using Canva and explored color theory and UX concepts to enhance the overall user experience.
