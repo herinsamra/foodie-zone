@@ -1,5 +1,5 @@
 # foodie-zone
-<img src="app/public/logo2.png" alt="logo">
+
 link: https://foodie-zone-samra.netlify.app/
 
 ## Introduction
