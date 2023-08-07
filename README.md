@@ -21,7 +21,7 @@ Welcome to the Foodie Zone,a fully responsive React project that allows users to
 - API (to fetch food data)
 
 ## Installation
-- Clone the repository: git clone https://github.com/your-username/foodie-zone.git
+- Clone the repository: git clone https://github.com/herinsamra/foodie-zone.git
 - Navigate to the project directory: cd app
 - Install dependencies for the front-end: cd app && npm install
 - Install dependencies for the server: cd .. cd server && npm install
